@@ -1,0 +1,11 @@
+type Transaction {
+  ID: String @fake(type: zipCode)
+  status: String @examples(values: ["successful", "pending", "failed"])
+  date: String @examples(values: ["2022-07-10T09:00:00.395Z", "2022-07-11T08:05:22.395Z", "2022-07-12T10:05:22.395Z", "2022-07-12T11:05:22.395Z", "2022-07-12T12:05:22.395Z"])
+  name: String @fake(type: firstName)
+  type: String @examples(values: ["credit", "debit"])
+}
+
+type Query {
+  Transactions: [Transaction] @listLength(min:20, max: 30)
+}
