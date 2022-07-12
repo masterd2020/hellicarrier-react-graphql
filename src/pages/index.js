@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import { useQuery } from '@apollo/client';
 import {GET_TRANSACTIONS} from '../query/transaction'
 import {groupedByDate, filterByStatus, filterByType, search} from '../lib'
