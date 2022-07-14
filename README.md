@@ -15,3 +15,7 @@ Tailwindcss
 
 Some of the decisions i made is to write some functions in the frontend that do the heavy lifting of `Filtering by Status, Type and Searching` because there is no how that can be achieved with the graphql mock api i used,
 unless there is a graphql server that is buiit, which will allow to do nomerious things.
+
+## Screenshot 📷📷
+
+![screenshot](/public/react-graphql.png "Screenshot")
